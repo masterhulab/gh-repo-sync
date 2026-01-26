@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+# Temporary files
+repo_list.txt
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Downloaded Repositories (optional, depending on use case, but good to ignore root level folders that might be clones)
+# Since the script allows custom directories, we can't ignore everything, but we can ignore common patterns if needed.
+# For now, let's assume the user manages their own downloaded repos or puts them in a subdir.
